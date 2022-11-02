@@ -1,0 +1,38 @@
+.balance__grid {
+    display: grid;
+    min-width: 500px;
+    height: 150px;
+    grid-template-columns: 50% 50%;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 12px;
+}
+
+.medium__text {
+    font-size: 1.8em;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.left__col {
+    grid-column: 1;
+    display: flex;
+    padding-left: 2em;
+    gap: 0.5em;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+}
+
+.right__col {
+    grid-column: 2;
+    display: flex;
+    padding-right: 2em;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 100%;
+}
